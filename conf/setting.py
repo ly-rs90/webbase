@@ -11,10 +11,10 @@ import os
 
 
 _cur_path = os.path.dirname(__file__)
-_root_path = os.path.dirname(_cur_path)
+root_path = os.path.dirname(_cur_path)
 
-static_path = os.path.join(_root_path, 'static')
-template_path = os.path.join(_root_path, 'template')
+static_path = os.path.join(root_path, 'static')
+template_path = os.path.join(root_path, 'template')
 
 
 settings = {
