@@ -9,7 +9,7 @@
 """
 from tornado.web import StaticFileHandler
 from handlers.index import Index
-from conf.setting import static_path
+from .setting import static_path
 
 
 handlers = [
