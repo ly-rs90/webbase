@@ -2,10 +2,35 @@
 <html lang="zh_CN">
 <head>
     <meta charset="UTF-8">
-    <title>tornado template</title>
+    <title>Interface Test</title>
     <link rel="stylesheet" href="/static/index.css">
 </head>
 <body>
-<p>It's works OK!</p>
+<button onclick="test()">Testing</button>
+<script>
+    function test() {
+        /* send FormData */
+        // let body = new FormData();
+        // body.append('key', 'value');
+        // fetch('/', {
+        //     method: 'POST',
+        //     body: body
+        // }).then(r => r.json()).then(function (r) {
+        //     console.log(r);
+        // });
+
+        /* send json */
+        // let body = {
+        //     key: 'value'
+        // };
+        // fetch('/', {
+        //     method: 'POST',
+        //     body: JSON.stringify(body),
+        //     headers: {'Content-Type': 'application/json;charset=utf-8'}
+        // }).then(r => r.json()).then(function (r) {
+        //     console.log(r);
+        // });
+    }
+</script>
 </body>
 </html>

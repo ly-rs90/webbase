@@ -9,9 +9,10 @@
 """
 from tornado.web import StaticFileHandler
 from handlers.index import Index
+from conf.setting import static_path
 
 
 handlers = [
     (r'/', Index),
-    (r'/(.*)', StaticFileHandler)
+    (r'/(.*)', StaticFileHandler, {'path': static_path})
 ]

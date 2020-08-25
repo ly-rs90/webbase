@@ -1,3 +1,5 @@
-*.pu[ocd]
+*.py[ocd]
 .idea/
 .vscode/
+logs/*
+!readme
